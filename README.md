@@ -1,6 +1,13 @@
 # password_keeper_mongodb
 MongoDB based password keeper
 
+### Pre-requisite:
+Run a docker container running mongoDB on your host and run the python script on your host (not within Docker).
+Command to run docker instance of mongoDB:
+
+docker run -d -p 27017-27019:27017-27019 --name mongodb mongo:4.0.4
+
+
 ### Usage:
 
 python password_keeper_mongodb.py 
